@@ -1,11 +1,1 @@
-#!/bin/bash
-# Script to update /etc/motd with a custom message
-
-MESSAGE="Hello from Jenkins"
-
-# Write the message to /etc/motd
-echo "$MESSAGE" | sudo tee /etc/motd > /dev/null
-
-echo "MOTD updated successfully."
-
-cat /etc/motd
+echo "Hello World"
