@@ -1,2 +1,1 @@
-FROM docker.io/httpd
-Maintainer "Vaibhav"
+RUN touch test
