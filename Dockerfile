@@ -1,1 +1,1 @@
-RUN touch test
+FROM docker.io/httpd
